@@ -1,4 +1,4 @@
-$(document).ready(function () {
+  $(document).ready(function () {
     $(window).scroll(function () {
       //  sticky navbar on scroll script  //
       if (this.scrollY > 20) {
@@ -14,7 +14,6 @@ $(document).ready(function () {
         $(".scroll-up-btn").removeClass("show");
       }
     });
-  
     //  slide-up script  //
   
     $(".scroll-up-btn").click(function () {
@@ -40,11 +39,11 @@ $(document).ready(function () {
   
     var typed = new Typed(".typing", {
       strings: [
-        "Fullstack Developer",
-        "Software Developer",
-        "Python Developer",
-        "Founder",
-        "Author"
+        "Fullstack Web Developer",
+        "React Developer",
+        "Angular Developer",
+        "Javascript Developer",
+        ".Net Core Developer"
       ],
       typeSpeed: 100,
       backSpeed: 60,
@@ -53,11 +52,11 @@ $(document).ready(function () {
   
     var typed = new Typed(".typing-2", {
       strings: [
-        "Fullstack Developer",
-        "Software Developer",
-        "Python Developer",
-        "Founder",
-        "Author"
+        "Fullstack Web Developer",
+        "React Developer",
+        "Angular Developer",
+        "Javascript Developer",
+        ".Net Core Developer"
       ],
       typeSpeed: 100,
       backSpeed: 60,
